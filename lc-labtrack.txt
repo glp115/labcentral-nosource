@@ -1,0 +1,55 @@
+# Image Description
+Employees in LabCentral utilized a module called LabTrack to view their work
+area and the nearby computer labs which they were also assigned to monitor.
+
+At the top of the image is a user contact submission form that student
+employees utilized to track their interactions with customers in the
+computer labs.
+
+On the map are markers to indicate nearby computer lab locations and their
+present availability. Icons change color and shape to indicate ongoing
+issues that requires an employee's attention. The purple icon in this image
+represents a minor issue that will require an employee's attention.
+
+Adjacent to the map is a series of timer bars that tick down. The timer bars
+indicate when the last employee visited, as well as indicating when a room
+is occupied by a prior event or class. Penn State University's classroom
+scheduler service provides the schedules and the LabTrack module parses them
+for display. These schedules update in real-time. In this image, the grey
+bar (Atherton C-108) is greyed out due to a room reservation. Similarly,
+Beaver has a green bar, indicating that a student employee was present
+recently.
+
+
+
+# George's Contribution
+I converted most of the LabTrack module from Drupal 6 to Drupal 7, including
+rewriting many of the database queries to use PDO.
+
+At the top of the page, I rewrote the contact form by adding CSS to allow it
+to properly scale for both desktop and mobile browsers. Prior to this, the
+form did not display properly on most mobile browsers.
+
+On the map, I wrote the ServiceNow connector, which permits LabTrack to
+query the ServiceNow service for open assigned incidents, and allows student
+employees to manipulate the incident within a limited scope and close
+incidents that are resolved. In this image, the purple icon (Redifer) is one
+such location that has an ongoing incident that requires resolution. By
+successfully completing this connector, the unit's 200 student employees
+interact with ServiceNow within the scope of the unit's mission, but without
+requiring individual student employee account licensing, provisioning or
+training, resulting in significant recurring annual savings for the Service
+Management Office and a significant reduction in training and account
+provisioning overhead for the unit.
+
+Finally, I wrote the classroom schedule connector for the timer bars
+adjacent to the map. The connector queries Penn State University's classroom
+schedule server, retrieves the current and future reservations for all
+visible and active rooms, and alters the display of the bars in real-time,
+updating the bar colors according to the present status of the room.
+
+
+
+# Disclaimer
+This image is a manager's view of the LabTrack module. Personal names used
+in the creation of this image have been blackened out.

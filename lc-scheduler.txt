@@ -1,0 +1,38 @@
+# Image Description
+Employees in LabCentral utilize a custom scheduling module to schedule weekly
+shifts.
+
+This image displays one location of many that student staff can work. Red
+blocks of time indicate occupied shifts, while green blocks of time indicate
+unoccupied shifts.
+
+This image represents the view that management sees, including all occupied
+and unoccupied shifts. Students have an additional view showing only the
+shifts they elected to work.
+
+
+
+# George's Contribution
+This was one of the first portions of LabCentral that I worked on in Drupal 6,
+assisting with the design and implementation of the scheduler, as well as
+converting the scheduler to function in Drupal 7 and use PDO to access the
+database.
+
+Although not readily visible in this image, I also wrote several checks to
+identify and prevent student employees from colluding or otherwise "holding"
+shifts for friends. One issue that our unit faced involved students with high
+seniority "holding" shifts for their friends, or harassing employees that they
+did not like. While some of these interactions were dealt with through
+disciplinary action, I wrote the anti-collusion functionality as an additional
+layer of protection to ensure employees treated one-another fairly.
+
+Finally, I added functionality to check student employee's schedules to
+ensure that they did not double-book themselves with simultaneous shifts.
+This functionality was included but partially ineffective in the initial
+release of the scheduler.
+
+
+
+# Disclaimer
+This image is a manager's view of the Scheduler module. Personal names used in
+the creation of this image have been blackened out.

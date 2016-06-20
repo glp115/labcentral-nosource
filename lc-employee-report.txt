@@ -1,0 +1,33 @@
+# Image Description
+The Employee Report provides a single-page displaying all timeclock
+anomalies, all communication requests, all training and other automated (or
+manually entered) actions taken by an employee or manager.
+
+This report provides a complete history of an employee's performance from
+hire to termination, including color-coded statuses for important positive or
+negative interactions (if any). Restricted notices (if any) are only shown to
+individuals with the appropriate permissions to view them. This list would
+also include training quiz results, evaluations by supervisors and so forth.
+
+This report also interfaces with Google Charts API (where available) to show 
+an employee's evaluation trend over time. An example is provided here.
+
+
+
+# George's Contribution
+I assisted with defining the API that was used by the employment report to
+receive data from other modules (such as communications, hardware waivers,
+payroll adjustments, training completion and so forth). I also converted the
+existing Drupal 6 module to Drupal 7's specifications, including rewriting
+all queries to rely on PDO.
+
+I added the initial integration between the evaluation module and Google
+Charts API, permitting a manager to see how an employee's evaluation has
+improved over time.
+
+
+
+# Disclaimer
+This image is a manager's view of a theoretical employee. Personal names,
+shift names and similar data that were used in the creation of this image
+have been intentionally blacked out.

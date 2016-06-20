@@ -1,0 +1,42 @@
+# Image Description
+LabCentral automatically tracks employee timeclock anomalies and requests an
+explanation from an employee when the anomaly exceeds certain pre-defined
+thresholds.  The payroll-processing system generates a list of anomalies, and
+this module parses the XML.
+
+Managers can see communication requests which are still awaiting an employee's
+response, or which are in the process of being reviewed by other managers.
+Further, management can investigate a communication, or can request a more
+in-depth explanation by merely clicking on the row in question.
+
+This table updates in real-time and supports multiple managers interacting
+simultaneously. When an employee submits a new communication, a javascript
+timer queries the site for table changes, and any manager viewing the table
+will see a new row added to the table. Likewise, if a manager reviews a
+communication, all other managers will see the row disappear from the table.
+The design of this interface is to maximize speed while retaining the ability
+to quickly deep-dive into a specific communication if needed.
+
+
+
+# George's Contributions
+The module was originally written by another developer for Drupal 6. My
+contributions included rewriting the module to support Drupal 7 and updating
+all database queries to use PDO.
+
+Originally, the module used an unstandardized data format to record all
+communications. I updated the module to rely on Drupal's "node" system. I
+added the javascript to automatically update the table. Finally, I added data
+validation routines to ensure that payroll's reported timeclock anomalies
+only contained the unit's employees data, and to alert management to any
+reported anomalies that fell outside . This additional data validation is
+necessary to prevent erroneous submissions, such as anomalies reported for
+student employees who did not work for our unit but were included in the XML
+file that payroll provided to us.
+
+
+
+# Disclaimer
+This image is a manager's view of a theoretical list of employee
+communications. Personal names and shift names that were used in the creation
+of this image have been intentionally blacked out.

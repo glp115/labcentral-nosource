@@ -1,0 +1,45 @@
+# Image Description
+LabCentral tracks employee data from initial application creation through an
+employee's graduation or termination.
+
+Managers can add specific questions to the employment application and request
+sets of data that prospective applicants must disclose in order to submit a
+job application. Voluntary questions and metrics, as required by Penn State
+University's HR department, are included as well.
+
+Prospective employees can submit, modify and withdraw their employment
+application, and all status updates are logged appropriately. The Employment
+Application module processes approximately 500 applications per year, so it is
+essential that managers can view both detailed applicant data as well as
+generalized information.
+
+
+
+# George's Contribution
+My contributions to the Employment Application module include rewriting it to
+function in Drupal 7, and rewriting all database queries to use PDO.
+Additionally, I regularly worked with Human Resources to ensure the module was
+compliant with all state and federal laws, including data retention and
+voluntary information disclosure (including Affirmative Action data tracking).
+
+I rewrote the job offer and job acceptance routines to automate large
+portions of the process. Prior to the rewrite, management had to manually
+extend job offers via e-mail, wait for the candidate to write an acceptance
+letter. Upon receiving the acceptance, the manager then had to manually move
+the candidate's profile from "interview" to "new hire". Additionally, at the
+time of hire, the candidate needed to return to the office to fill out
+additional forms confirming acceptance of employment. After my rewrite, a
+successful candidate receives a programatically generated e-mail with a
+confirmation link. By clicking on the link, their application is automatically
+updated and they are given several additional forms that must be filled out
+online. This rewrite increases productivity by no longer requiring the
+successful applicant to return to the office to fill out those forms, and
+guarantees that no individual's paperwork is lost or misplaced during the
+onboarding process.
+
+
+
+# Disclaimer
+This image is a manager's view of a prospective employee's application. The
+data listed in this image is fabricated and does not represent any actual
+candidate.

@@ -1,0 +1,39 @@
+# Image Description
+Employees working in the Knowledge Commons Service Desk can accept customer
+hardware for repairs and maintenance. In order for a customer to drop off
+any item for repair, they must agree to terms approved by Penn State
+University's legal department to mitigate risk.
+
+Any action that an employee takes is recorded in the waiver, and upon final
+resolution the waiver is submitted to JIRA for final storage and metrics
+tracking.
+
+The waiver itself consists of two parts, an Android application that
+validates the customer's account and a Drupal module that parses the data and
+allows employees to track their work performed. Finally, once the hardware is
+returned to the user, the Drupal module stores the data into a JIRA instance.
+
+This image represents a manager's view of a single waiver submission.
+
+
+
+# George's Contribution
+The original Android application and Drupal module were produced by another
+staff member.
+
+After the staff member's departure from the unit, I updated the Android
+application with improved security by using HTTPS to send and receive data,
+as it had been using HTTP before.
+
+For the Drupal module, my primary contributions were identifying and
+eliminating hundreds of lines of unused code, adding code commentary for
+future developers, and clearing up thousands of errors caused by not adhering
+to PHP_STRICT standards. Finally, I updated the code to more closely adhere
+to PHP coding standards (PSR-1 and PSR-2) so that future developers would
+have an easier time understanding the code.
+
+
+
+# Disclaimer
+This image is a manager's view of the LabTrack module. Personal names used in
+the creation of this image have been blackened out.
