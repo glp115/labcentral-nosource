@@ -14,26 +14,26 @@ It's primary functionality is employee management, in conjunction with Labman, a
 - Permitting schedule generation and a round-robin, seniority-based system for employees to select shifts that worked around their class schedule.
 
 # Student Services Lead Developers
-* Misha Kononov
-* George Phillips
+* Misha Kononov (2008-2013)
+* George Phillips (2009-2015)
 
 # External Developers
-* Jim Campbell
-* Chris Feragotti
-* Linda Littleton
+* Jim Campbell (2011)
+* Chris Feragotti (2012-2013)
+* Linda Littleton (2011)
 
 # Student Internship Developers
-* Joe Balough
-* Martin Castner
-* Francis Fisher
-* Vasu Gaur
-* Andrew Hersh
-* Nick Johnson
-* Joseph Kim
-* Rebecca Krish
-* John Martin
-* Ryan Moser
-* Caitlin Schaeppi
-* Gus Smith
+* Joe Balough (2009-2010)
+* Martin Castner (2012)
+* Francis Fisher (2010-2011)
+* Vasu Gaur (2015)
+* Andrew Hersh (2014-2015)
+* Nick Johnson (2012)
+* Joseph Kim (2014)
+* Rebecca Krish (2012-2014)
+* John Martin (2014-2015)
+* Ryan Moser (2011)
+* Caitlin Schaeppi (2013)
+* Gus Smith (2014)
 
-Source code is (C) Pennsylvania State University 2008-2015 and is unavailable for review or use. This repository is provided with images of the software in action for review purposes only.
+Source code is (C) Pennsylvania State University 2008-2015 and is unavailable for review or use. This repository is provided with images of the software in action and descriptions for portfolio purposes only.
